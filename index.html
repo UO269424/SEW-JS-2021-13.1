@@ -17,11 +17,9 @@
     
     <h1>Ejercicio 13 - Tarea 1</h1>    
     <section>
-        <h2>Seleccione el archivo .kml</h2>
-	<p>
-        	<input type="file" id="cargarArchivo" onchange="mapa.cargar(this.files);">
-	</p>
-        <article id="mapa"></article>
+            <h2>Seleccione el archivo .kml</h2>
+            <input type="file" title="archivo" onchange = "mapa.cargar(this.files);"/>
+            <div id="mapa"></div>
     </section>    
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0nond7_l3Zpm4KiFAqZiuiMaQb_3rqmc">
     </script>
