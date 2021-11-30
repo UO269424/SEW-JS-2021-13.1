@@ -1,0 +1,26 @@
+/*especificidad -> 1*/
+body{
+    font: 400 1.4em Tahoma, sans-serif;
+    color: black;
+}
+
+/*especificidad -> 1*/
+h1{
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+header{
+    background-color: lightgreen;
+	border-radius: 1em;
+    padding: 0.5em;
+}
+
+/*especificidad -> 100*/
+article {
+    margin-top: 1em;
+    height: 40em;
+    width: 100%;
+}

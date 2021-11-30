@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+	<meta name="author" content="Alonso Gago">
+    <meta name="description" content="Ejercicio13">
+    <meta name="keywords" content="Ejercicio13">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Ejercicio 13 - Tarea 1</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="MapaKML.css" />
+	<script src="MapaKML.js"></script>
+</head>
+
+<body>
+    
+    <h1>Ejercicio 13 - Tarea 1</h1>    
+    <section>
+        <h2>Seleccione el archivo .kml</h2>
+        <input type="file" id="cargarArchivo" onchange="mapa.cargar(this.files)">
+        <article id="mapa"></article>
+    </section>    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0nond7_l3Zpm4KiFAqZiuiMaQb_3rqmc">
+    </script>
+</body>
+
+</html>
